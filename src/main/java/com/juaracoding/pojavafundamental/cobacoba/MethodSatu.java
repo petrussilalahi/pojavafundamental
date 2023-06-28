@@ -11,8 +11,10 @@ Version 1.0
 
 public class MethodSatu {
     public static void main(String[] args) {
+        double do1 = 5.0;
+        double do2 = 10.0;
         System.out.println(hitungLuasPersegi(5));
-        System.out.println(hitungLuasLayangLayang(5.3, 100));
+        System.out.println(hitungLuasLayangLayang(do1, do2  ));
     }
 
     public static double hitungLuasPersegi(int dobs1)
