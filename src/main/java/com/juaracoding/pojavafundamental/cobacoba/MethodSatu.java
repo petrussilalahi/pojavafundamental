@@ -17,8 +17,8 @@ public class MethodSatu {
 
     public static double hitungLuasPersegi(int dobs1)
     {
-        int intresult = dobs1 * dobs1;
-        return intresult;
+        int intres = dobs1 * dobs1;
+        return intres;
     }
 
     public static double hitungLuasLayangLayang(double dobs2, double dobs3)
