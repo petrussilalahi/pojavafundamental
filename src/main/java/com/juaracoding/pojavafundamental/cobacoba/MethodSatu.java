@@ -15,10 +15,10 @@ public class MethodSatu {
         System.out.println(hitungLuasLayangLayang(5.3, 100));
     }
 
-    public static double hitungLuasPersegi(double dobs1)
+    public static double hitungLuasPersegi(int dobs1)
     {
-        double dobresult = dobs1 * dobs1;
-        return dobresult;
+        int intresult = dobs1 * dobs1;
+        return intresult;
     }
 
     public static double hitungLuasLayangLayang(double dobs2, double dobs3)
