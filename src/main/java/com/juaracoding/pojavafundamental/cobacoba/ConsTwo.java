@@ -11,6 +11,10 @@ Version 1.0
 
 public class ConsTwo {
     public static void main(String[] args) {
+        ConsOne consOne = new ConsOne();
 
+        consOne = new ConsOne("Petrus", 123);
+        System.out.println(consOne.getIntAngka());
+        System.out.println(consOne.getStrName());
     }
 }

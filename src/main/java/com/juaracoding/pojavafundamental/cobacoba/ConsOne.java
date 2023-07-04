@@ -14,9 +14,28 @@ public class ConsOne {
     private int intAngka;
 
     public ConsOne() {
+        System.out.println("Constructor One tanpa parameter");
     }
     public ConsOne(String strName, int intAngka) {
         this.strName = strName;
         this.intAngka = intAngka;
     }
+
+    public void setStrName(String strName) {
+        this.strName = strName;
+    }
+
+    public String getStrName() {
+        return strName;
+    }
+
+    public void setIntAngka(int intAngka) {
+        this.intAngka = intAngka;
+    }
+
+    public int getIntAngka() {
+        return intAngka;
+    }
+
+
 }
