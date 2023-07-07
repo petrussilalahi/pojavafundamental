@@ -55,18 +55,21 @@ public class Pratikum3 {
         String strConvert = arrTemp.toString().substring(1,arrTemp.toString().length()-1);
         String [] strElement = strConvert.split(",");
 
+        String  strTemp = String.join(",", Arrays.copyOfRange(strElement, 0, strElement.length - 1));
 
 
         // loop untuk mengganti koma dengan kata "dan"
-        for(int i = 0; i < strElement.length; i++) {
-            stringBuilder.append(strElement[i]).append(',');
-        }
-        stringBuilder.append(" dan").append(strElement[strElement.length-1]);
-        result = stringBuilder.toString();
+//        for(int i = 0; i < strElement.length; i++) {
+//            stringBuilder.append(strElement[i]).append(',');
+//        }
+//        stringBuilder.append(" dan").append(strElement[strElement.length-1]);
+//        result = stringBuilder.toString();
+
 
 
         System.out.println("User Melakukan Input Sebanyak " + arrTemp.size() + " Kali");
-        System.out.println("Dengan data sebagai berikut : " + result + " ");
+//        System.out.println("Dengan data sebagai berikut : " + result + " ");
+        System.out.println("Dengan data sebagai berikut : " + strTemp +" dan"+ strElement[strElement.length-1]);
         System.out.println("Nilai rata - rata : " + dobResults);
 
     }
